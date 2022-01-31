@@ -1,0 +1,24 @@
+{
+    "domain": "smartcolumbusos-staging.auth0.com",
+    "clientId": "REDACTED",
+    "clients": {
+        "Discovery": {
+            "callbacks": "[\"https://discovery.staging.internal.smartcolumbusos.com/oauth\", \"https://discovery.staging-smartos.com/oauth\", \"https://data.staging.internal.smartcolumbusos.com/tableau/connector.html\", \"https://data.staging-smartos.com/tableau/connector.html\"]",
+            "allowedLogoutUrls": "[\"https://discovery.staging.internal.smartcolumbusos.com/oauth\", \"https://discovery.staging-smartos.com/oauth\"]",
+            "allowedOrigins": "[\"https://discovery.staging.internal.smartcolumbusos.com\", \"https://discovery.staging-smartos.com\", \"https://data.staging.internal.smartcolumbusos.com\", \"https://data.staging-smartos.com\"]",
+            "webOrigins": "[\"https://discovery.staging.internal.smartcolumbusos.com\", \"https://discovery.staging-smartos.com\", \"https://data.staging.internal.smartcolumbusos.com\", \"https://data.staging-smartos.com\"]",
+            "name": "Smart Columbus Operating System Staging",
+            "type": "spa"
+        },
+        "ANDI": {
+            "callbacks": "[\"https://andi.staging.internal.smartcolumbusos.com/auth/auth0/callback\", \"https://andi.staging-smartos.com/auth/auth0/callback\", \"https://sharedata.staging.internal.smartcolumbusos.com/auth/auth0/callback\", \"https://sharedata.staging-smartos.com/auth/auth0/callback\"]",
+            "allowedLogoutUrls": "[\"https://andi.staging.internal.smartcolumbusos.com/auth/auth0\", \"https://andi.staging-smartos.com/auth/auth0\", \"https://sharedata.staging.internal.smartcolumbusos.com/auth/auth0\", \"https://sharedata.staging-smartos.com/auth/auth0\"]",
+            "allowedOrigins": "[\"https://andi.staging.internal.smartcolumbusos.com\", \"https://andi.staging-smartos.com\", \"https://sharedata.staging.internal.smartcolumbusos.com\", \"https://sharedata.staging-smartos.com\"]",
+            "webOrigins": "[\"https://andi.staging.internal.smartcolumbusos.com\", \"https://andi.staging-smartos.com\", \"https://sharedata.staging.internal.smartcolumbusos.com\", \"https://sharedata.staging-smartos.com\"]",
+            "name": "ANDI Staging",
+            "type": "regular_web"
+        }
+    },
+    "errorUrl": "https://discovery.staging-smartos.com/oauth/error",
+    "enabledClients": ["Smart Columbus Operating System Staging", "ANDI Staging", "Discovery API", "Auth0 Management"]
+}

@@ -1,0 +1,24 @@
+{
+  "domain": "smartcolumbusos-local.auth0.com",
+  "clientId": "REDACTED",
+    "clients": {
+        "Discovery": {
+            "callbacks": "[\"http://localhost:9001/oauth\", \"http://10.0.2.2:9001/oauth\", \"http://10.1.10.26:9001/oauth\"]",
+            "allowedLogoutUrls": "[\"http://localhost:9001/oauth\"]",
+            "allowedOrigins": "[\"http://localhost:9001\"]",
+            "webOrigins": "[\"http://localhost:9001\"]",
+            "name": "Smart Columbus Operating System Local",
+            "type": "spa"
+        },
+        "ANDI": {
+            "callbacks": "[\"https://127.0.0.1.xip.io:4443/auth/auth0/callback\"]",
+            "allowedLogoutUrls": "[\"https://127.0.0.1.xip.io:4443/auth/auth0\"]",
+            "allowedOrigins": "[\"https://127.0.0.1.xip.io:4443\"]",
+            "webOrigins": "[\"https://127.0.0.1.xip.io:4443\"]",
+            "name": "ANDI Local",
+            "type": "regular_web"
+        }
+    },
+    "errorUrl": "http://127.0.0.1.xip.io:9001/oauth/error",
+    "enabledClients": ["Smart Columbus Operating System Local", "ANDI Local", "Discovery API", "Auth0 Management"]
+}

@@ -1,0 +1,24 @@
+{
+    "domain": "smartcolumbusos-prod.auth0.com",
+    "clientId": "REDACTED",
+    "clients": {
+        "Discovery": {
+            "callbacks": "[\"https://discovery.prod.internal.smartcolumbusos.com/oauth\", \"https://discovery.smartcolumbusos.com/oauth\", \"https://data.prod.internal.smartcolumbusos.com/tableau/connector.html\", \"https://data.smartcolumbusos.com/tableau/connector.html\"]",
+            "allowedLogoutUrls": "[\"https://discovery.prod.internal.smartcolumbusos.com/oauth\", \"https://discovery.smartcolumbusos.com/oauth\"]",
+            "allowedOrigins": "[\"https://discovery.prod.internal.smartcolumbusos.com\", \"https://discovery.smartcolumbusos.com\", \"https://data.prod.internal.smartcolumbusos.com\", \"https://data.smartcolumbusos.com\"]",
+            "webOrigins": "[\"https://discovery.prod.internal.smartcolumbusos.com\", \"https://discovery.smartcolumbusos.com\", \"https://data.prod.internal.smartcolumbusos.com\", \"https://data.smartcolumbusos.com\"]",
+            "name": "Smart Columbus Operating System",
+            "type": "spa"
+        },
+        "ANDI": {
+            "callbacks": "[\"https://andi.prod.internal.smartcolumbusos.com/auth/auth0/callback\", \"https://andi.smartcolumbusos.com/auth/auth0/callback\", \"https://sharedata.prod.internal.smartcolumbusos.com/auth/auth0/callback\", \"https://sharedata.smartcolumbusos.com/auth/auth0/callback\"]",
+            "allowedLogoutUrls": "[\"https://andi.prod.internal.smartcolumbusos.com/auth/auth0\", \"https://andi.smartcolumbusos.com/auth/auth0\", \"https://sharedata.prod.internal.smartcolumbusos.com/auth/auth0\", \"https://sharedata.smartcolumbusos.com/auth/auth0\"]",
+            "allowedOrigins": "[\"https://andi.prod.internal.smartcolumbusos.com\", \"https://andi.smartcolumbusos.com\", \"https://sharedata.prod.internal.smartcolumbusos.com\", \"https://sharedata.smartcolumbusos.com\"]",
+            "webOrigins": "[\"https://andi.prod.internal.smartcolumbusos.com\", \"https://andi.smartcolumbusos.com\", \"https://sharedata.prod.internal.smartcolumbusos.com\", \"https://sharedata.smartcolumbusos.com\"]",
+            "name": "ANDI",
+            "type": "regular_web"
+        }
+    },
+    "errorUrl": "https://discovery.smartcolumbusos.com/oauth/error",
+    "enabledClients": ["Smart Columbus Operating System", "ANDI", "Discovery API", "Auth0 Management"]
+}
